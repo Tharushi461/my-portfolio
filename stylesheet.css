@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -332,4 +333,340 @@ nav ul li a:hover {
     background-color: #333; /* Dark background */
     color: white; /* Light text color */
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 5px 0;
+}
+
+header p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #00ff00;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+   
+   
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Y29kaW5nfHwwfHx8fDE2MjkzNjU5NTc&ixlib=rb-1.2.1&q=80&w=1080'); /*  background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* about me */
+
+#about {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+
+
+  /* project section */
+
+  #projects {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  #projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .project p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    color: #2980b9;
+  }
+  
+
+
+  #skills {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    vertical-align: middle;
+  }
+  
+  .skills-list li img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  #contact {
+    padding: 20px;
+    background-color: #f5f5f5; /* Background color for the contact section */
+    text-align: center; /* Center text */
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  #contact form {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    max-width: 500px; /* Max width for form */
+    margin: 0 auto; /* Center the form on the page */
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 80%; /* Width of the inputs and textarea */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Spacing below each input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  #contact button {
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  #contact button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .social-media {
+    margin-top: 20px; /* Spacing above social media links */
+  }
+  
+  .social-media a {
+    margin: 0 10px; /* Horizontal spacing between links */
+    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Link color */
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+
+
+  footer {
+    padding: 20px; /* Padding for footer */
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center; /* Center align text */
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  footer a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+  
+  .project img {
+    transition: transform 0.3s ease;
+  }
+  
+  .project img:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+      }
+      
+  }
+  
+  button:hover {
+    background-color: #007BFF; /* Change to your desired hover color */
+    color: white; /* Change text color on hover */
+  }
+
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    .skills-list li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #contact-form input,
+    #contact-form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+  body.dark-mode {
+    background-color: #410b87;
+    color: white;
+  }
+  
+  .dark-mode nav {
+    background-color: #372184;
+  }
+  
+  .dark-mode footer {
+    background-color: #3f19c9;
+  }
+  
+
+
+
+  body {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+    font-family: Arial, sans-serif;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333; /* Dark background */
+    color: white; /* Light text color */
+}
+>>>>>>> 42f7d67d8d149de14137eabdb0b1bd75afb0b06f
   
