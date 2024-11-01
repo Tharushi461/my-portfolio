@@ -78,14 +78,15 @@ nav ul li a:hover {
 }
 
 .profile-img {
-  width: 150px;
+  width: 200px;
   height: auto;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
 #about p {
-  font-size: 1.2em;
+  font-size: 1.1.em;
+  font-family: 'Times New Roman', Times, serif;
   color: #333;
   margin-bottom: 15px;
 }
